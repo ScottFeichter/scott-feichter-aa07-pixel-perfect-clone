@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.solar-banner {
+    background-color: #333121;
+    padding: 0.5%;
+    text-align: center;
+}
+
+.solar-text, .solar-link {
+    color: white;
+    font-weight: bold;
+}
+#nav-container{
+    background-color: #F3F2EF;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 16px 0;
+    position: sticky;
+    /* height: 50px; */
+}
+.nav-a-container{
+display: flex;
+gap: 20px;
+align-items: flex-end;
+padding-top: 10px;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: #333121;
+    font-size: 90%;
+    font-weight: 600;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #F3F2EF;
+}
+
+.nav-logo{
+    width: 10%;
+    height: 7%;
+}
+
+.nav-links:hover{
+    border-bottom: 2px solid #333121;
+}
+
+#sign-up{
+background-color: #464F2E;
+color: white;
+border-radius: 5px;
+text-decoration: none;
+font-size: 90%;
+font-weight: 600;
+padding-bottom: 5px;
+padding: 8px 15px;
+}
+
+#sign-up:hover{
+    background-color: #333121;
+}
