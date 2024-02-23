@@ -147,3 +147,18 @@ h1 {
     border: red 2px dotted;
     color: white;
 }
+
+.card-bottom{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333121;
+}
+
+.card{
+    
+    width: 45%;
+}
+
+.map{
+    width: 100%;
+}
