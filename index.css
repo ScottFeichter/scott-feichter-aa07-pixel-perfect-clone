@@ -4,7 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans, sans-serif, FontAwesome"
+
+}
+
+body {
+    background-color: #F3F2EF;
 }
 
 .solar-banner {
@@ -64,4 +69,81 @@ padding: 8px 15px;
 
 #sign-up:hover{
     background-color: #333121;
+}
+
+.header-message {
+    text-align: center;
+    color: #333121;
+    font-size: 1.7em;
+    font-weight: 600;
+    margin: 2% 0;
+}
+
+h1 {
+    font-size: 2.3em;
+}
+
+#input-container {
+    margin: 4em auto;
+    width: 80%;
+    box-shadow: -5px -5px 10px 2px  rgba(3, 3, 3, 0.117);
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 1.5em;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.input-span {
+    border: 1px rgb(83, 83, 88) solid;
+    border-radius: 10px;
+    background-color: white;
+    display: inline-flex;
+    justify-content: flex-start;
+    padding: 1em 3em 1em 0.5em;
+
+}
+
+.input {
+    border: none;
+    background-color: white;
+    width: 100px;
+    margin: 0.5em;
+}
+
+
+.location-box {
+    width: 30%;
+    margin: 0 1em;
+
+}
+
+.date-box {
+    width: 25%;
+    margin: 0 1em 0 0;
+}
+
+.guest-box {
+    width: 20%;
+    margin: 0 1em 0 0;
+}
+
+.search-box {
+    width: 10%;
+    margin: 0 1em 0 0;
+    background-color: #9F3F24;
+    border: green 4px dotted;
+    /* display: inline-flex; */
+
+}
+
+#search-bar {
+    color: white;
+    background-color: #9F3F24;
+    border: 2px solid blue;
+}
+
+#mag {
+    border: red 2px dotted;
+    color: white;
 }
